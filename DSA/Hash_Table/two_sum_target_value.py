@@ -42,7 +42,7 @@ def two_sum(arr, n):
     return []
 
 
-print(two_sum([2, 7], 9))
+print(two_sum([2, 7, 4, 2, 3, 1, 7], 300))
 # if __name__ == '__main__':
 #     x = [1, 2, 3, 4, 6, 7, 8, 9, 3, 12, 6, 4, 23]
 #     v = 35
