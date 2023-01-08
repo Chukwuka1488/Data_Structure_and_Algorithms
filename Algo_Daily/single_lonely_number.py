@@ -22,6 +22,7 @@ class Solution(object):
         :return: int
         """
         # get unique values in arr
+        self.arr = arr
         new_arr = list(set(self.arr))
         for i in new_arr:
             if self.arr.count(i) == 1:
