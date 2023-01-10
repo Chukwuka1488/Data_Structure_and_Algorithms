@@ -15,14 +15,15 @@ if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For the test c
 # print(first_factorial(180000))
 
 
-from decimal import Decimal
+import decimal
 
 
-def first_factorial(n):
-    if n < 2:
-        return 1
-    else:
-        return Decimal(n) * first_factorial(n - 1)
+def first_factorial(num):
+    value = decimal.Decimal(1)
+    for i in range(1, num + 1):
+        value *= decimal.Decimal(i)
+
+    return value
 
 
 print(first_factorial(180000))
