@@ -6,7 +6,7 @@ definition of an intersection of two sets A and B is the set containing all elem
 
 Methods to solve:
 Brute Force: O(n**2)
-Hash Maps: O()
+Hash_Maps Maps: O()
 """
 
 import unittest
